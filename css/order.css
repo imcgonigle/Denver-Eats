@@ -1,0 +1,98 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding:0;
+  margin:0;
+  background: #efefef;
+}
+
+.title-denver {
+  color: maroon; 
+  font-weight: 600;
+}
+
+header {
+  position: relative;
+  top: 0;
+  left:0;
+  background: #222;
+  color: #eee;
+  box-shadow: 1px 0 4px #555;
+}
+
+.header-container {
+  max-width: 1400px;
+  margin:auto;
+}
+
+header h1 {
+  margin:0;
+  padding: 2rem;
+}
+
+header a {
+  color: #eee; 
+}
+
+header a:hover {
+  color:#eee;
+  text-decoration: none;
+}
+main {
+  padding: 6rem;
+}
+
+table{
+  font-size:2rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#pizzaMenu {
+  
+  background: lightcyan;
+
+}
+#burgerMenu{
+  background: lightgoldenrodyellow;
+}
+#order {
+  background: white;
+}
+#order thead{
+  background: #333;
+  color: #fefefe;
+}
+
+.menu-item {
+  font-size: 2rem;
+}
+
+.menu-item:hover{
+  cursor: pointer;
+  color: darkblue;
+}
+
+#selected-item {
+  color: darkblue;
+}
+
+input {
+  margin: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  background: #222;
+  color: #fafafa;
+}
+
+footer > p {
+  padding: 0px 20px;
+}
+
